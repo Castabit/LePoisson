@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 .title {
@@ -10,16 +9,13 @@
 .navbar {
     color: teal;
     position: sticky;
-    align-items: flex;
     justify-content: space-evenly;
-    top: 0px;
-    padding: 10px 20px;
+    top: 10px;
 }
 
-.navbar li {
-    display: block;
-}
-
-.nav-list {
-    list-style: none;
+.nav-list li {
+    display: inline-block;
+    height: 20px;
+    width: 200px;
+    padding: 20px;
 }
