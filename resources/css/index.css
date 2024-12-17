@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    align-items: center;
+}
+
+.navbar {
+    color: teal;
+    position: sticky;
+    align-items: flex;
+    justify-content: space-evenly;
+    top: 0px;
+    padding: 10px 20px;
+}
+
+.navbar li {
+    display: block;
+}
+
+.nav-list {
+    list-style: none;
+}
