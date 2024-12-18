@@ -2,8 +2,8 @@ const navList = document.getElementById("nav-list");
 
 const navBar = {
     Home: "/index.html",
-    About: "/pages/about.html",
-    Rankings: "/pages/rankings.html",
+    About: "../pages/about.html",
+    Rankings: "../pages/rankings.html",
 }; 
 
 for (const [key,value] of Object.entries(navBar)) {
@@ -15,14 +15,3 @@ for (const [key,value] of Object.entries(navBar)) {
     listItem.appendChild(anchor);
     navList.appendChild(listItem);
 }
-
-// const headers = ["Home","About","Rankings"];
-
-// headers.forEach(populateHeader);
-
-// function populateHeader(item)
-// {
-//     const listItem = document.createElement("li");
-//     listItem.textContent = item;
-//     navList.appendChild(listItem);
-// }
