@@ -2,7 +2,7 @@ const navList = document.getElementById("nav-list");
 
 const navBar = {
     Home: "/index.html",
-    About: "../pages/about.html",
+    About: "pages/about.html",
     Rankings: "../pages/rankings.html",
 }; 
 
