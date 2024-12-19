@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/resources/css/index.css">
     <!-- <base href="/LePoisson/"> -->
+    <script>
+        const isGitHubPages = window.location.hostname === 'castabit.github.io';
+        const base = isGitHubPages ? '/LePoisson/' : '/';
+        document.write(`<base href="${base}">`);
+    </script>    
     <title>About</title>
 </head>
 <body>

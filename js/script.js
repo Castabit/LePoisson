@@ -1,9 +1,9 @@
 const navList = document.getElementById("nav-list");
 
 const navBar = {
-    Home: "/index.html",
-    About: "../pages/about.html",
-    Rankings: "../pages/rankings.html",
+    Home: "index.html",
+    About: "pages/about.html",
+    Rankings: "pages/rankings.html",
 }; 
 
 for (const [key,value] of Object.entries(navBar)) {
