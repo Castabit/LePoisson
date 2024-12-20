@@ -3,33 +3,45 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.title {
-    align-items: center;
-}
-
 .navbar {
     color: teal;
     position: sticky;
     top: 10px;
 }
 
+h1 {
+    margin: 40px;
+}
+
+.nav-list {
+    display: flex;
+}
+
 .nav-list li {
-    display: inline-block;
     height: 38px;
     width: 200px;
     padding: 10px;
-    margin: 1px;
+    margin: 4px;
     background-color: teal;
     text-align: center;
-    border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 4px;
+    list-style-type: none;
 }
 
 .nav-list li a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+}
 
+.introduction {
+    margin: 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .entry {
@@ -38,23 +50,29 @@
 }
 
 .fish-entry {
+    display: flex;
     height: 250px;
-}
-
-.fish-entry > * {
-    display: inline-block;
-    padding: 15px;
+    flex-wrap: wrap;
 }
 
 .fish-entry img {
-    width: 230px;
+    width: 280px;
+    height: 180px;
+    padding: 0px 0px 0px 40px;
 }
 
 .fish-entry ul {
+    display: flex;
+    flex-direction: column;
     vertical-align: top;
+    width: 400px;
+    height: 180px;
+    margin: 0px;
+    padding: 0px 40px;
 }
 
 .fish-entry ul li {
     list-style-type: none;
+    width: 350px;
 }
 
