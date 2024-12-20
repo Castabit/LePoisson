@@ -10,13 +10,51 @@
 .navbar {
     color: teal;
     position: sticky;
-    justify-content: space-evenly;
     top: 10px;
 }
 
 .nav-list li {
     display: inline-block;
-    height: 20px;
+    height: 38px;
     width: 200px;
-    padding: 20px;
+    padding: 10px;
+    margin: 1px;
+    background-color: teal;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
 }
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.entry {
+    display: inline-block;
+    height: 50px;
+}
+
+.fish-entry {
+    height: 250px;
+}
+
+.fish-entry > * {
+    display: inline-block;
+    padding: 15px;
+}
+
+.fish-entry img {
+    width: 230px;
+}
+
+.fish-entry ul {
+    vertical-align: top;
+}
+
+.fish-entry ul li {
+    list-style-type: none;
+}
+

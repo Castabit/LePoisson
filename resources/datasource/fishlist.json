@@ -1,10 +1,77 @@
 [
     {
         "name": "Sea Bream",
-        "ranking": "94"
+        "rating": "94",
+        "image": "resources/images/rankings/sea-bream.jpeg",
+        "method": "self-fillet, pan fried"
     },
     {
         "name": "Ocean Perch",
-        "ranking": "22"
+        "rating": "22",
+        "method": "packaged-fillet (skin on), pan fried"
+    },
+    {
+        "name": "European Sea Bass",
+        "rating": "72",
+        "image": "resources/images/rankings/sea-bass.jpeg",
+        "method": "packaged-fillet, pan fried"
+    },
+    {
+        "name": "Basa",
+        "rating": "92",
+        "method": "packaged-fillet, pan fried"
+    },
+    {
+        "name": "Steelhead Trout",
+        "rating": "80",
+        "method": "packaged-fillet, pan fried"
+    },
+    {
+        "name": "Rainbow Trout",
+        "rating": "85",
+        "image": "resources/images/rankings/rainbow-trout.jpeg",
+        "method": "packaged-fillet, pan fried"
+    },
+    {
+        "name": "Pickerel",
+        "rating": "70",
+        "method": "packaged-fillet, pan fried"
+    },
+    {
+        "name": "Sole",
+        "rating": "68",
+        "method": "packaged-fillet, pan fried"
+    },
+    {
+        "name": "Icelandic Cod",
+        "rating": "38",
+        "method": "packaged-fillet, pan fried"
+    },
+    {
+        "name": "Pacific Rockfish",
+        "rating": "91",
+        "method": "packaged-fillet, pan fried"
+    },
+    {
+        "name": "Turbot",
+        "rating": "82",
+        "method": "self-fillet, pan fried, szechuan boiled fish"
+    },
+    {
+        "name": "Salmon",
+        "rating": "95",
+        "image": "resources/images/rankings/salmon.jpeg",
+        "method": "packaged-fillet, pan fried, pickled fish"
+    },
+    {
+        "name": "Tilapia",
+        "rating": "70",
+        "image": "resources/images/rankings/tilapia.jpeg",
+        "method": "packed-fillet, pan fried, deep fried, steamed"
+    },
+    {
+        "name":"Short Mackerl",
+        "rating": "90",
+        "method": "whole fozen, pan fried"
     }
 ]
