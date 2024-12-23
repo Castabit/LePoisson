@@ -77,6 +77,7 @@
     {
         "name": "Yellow Croaker",
         "rating": "13",
+        "image": "resources/images/rankings/yellow-croaker.jpeg",
         "method": "self-fillet, pan fried, hot pot"
     }
 ]
