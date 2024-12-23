@@ -75,9 +75,9 @@
         "method": "whole frozen, pan fried"
     },
     {
-        "name": "Yellow Croaker",
+        "name": "Yellow Croaker", 
         "rating": "13",
-        "image": "resources/images/rankings/yellow-croaker.jpeg",
+        "image": "resources/images/rankings/yellow-croaker.jpg",
         "method": "self-fillet, pan fried, hot pot"
     }
 ]
