@@ -70,8 +70,14 @@
         "method": "packed-fillet, pan fried, deep fried, steamed"
     },
     {
-        "name":"Short Mackerl",
+        "name":"Short Mackerel",
         "rating": "90",
-        "method": "whole fozen, pan fried"
+        "method": "whole frozen, pan fried"
+    },
+    {
+        "name": "Yellow Croaker",
+        "rating": "13",
+        "image": "resources/images/rankings/yellow-croaker.jpeg",
+        "method": "self-fillet, pan fried, hot pot"
     }
 ]
