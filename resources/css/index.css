@@ -23,6 +23,11 @@ h1 {
 
 .nav-list {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-list ul {
+    gap: 4px;
 }
 
 .nav-list li {
@@ -46,40 +51,37 @@ h1 {
     margin: 40px;
 }
 
-section .rating-list {
+section.ratings-list{
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.entry {
-    display: inline-block;
-    height: 50px;
-}
-
 .fish-entry {
     display: flex;
-    height: 250px;
     flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%
 }
 
 .fish-entry img {
     width: 280px;
     height: 180px;
+    object-fit: cover;
+    padding-right: 40px;
 }
 
 .fish-entry ul {
-    display: flex;
     flex-direction: column;
     vertical-align: top;
-    width: 400px;
-    height: 180px;
-    margin: 0px;
-    padding: 0px 40px;
+    width: 200px;
+    /* height: 180px; */
+    padding: 0px;
+    margin-bottom: 40px;
 }
 
 .fish-entry ul li {
     list-style-type: none;
-    width: 350px;
+    /* width: 350px; */
 }
 

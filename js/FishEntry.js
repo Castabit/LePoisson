@@ -41,9 +41,11 @@ switch(pageTitle) {
     case "Shellfishes":
         datasource = 'shellfish-list.json';
         break;
+    default:
+        datasource = 'shellfish-list.json';
 }
 
-fetch('resources/datasource/fish-list.json')
+fetch(`resources/datasource/${datasource}`)
     .then(response => response.json())
     .then(data => {
         
