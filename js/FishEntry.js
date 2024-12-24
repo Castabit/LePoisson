@@ -30,15 +30,36 @@ class FishEntry {
     }
 }
 
-fetch('resources/datasource/fishlist.json')
+// Change handling based on the title of the page
+const pageTitle = document.title;
+var datasource;
+
+switch(pageTitle) {
+    case "Ratings":
+        datasource = 'fish-list.json';
+        break;
+    case "Shellfishes":
+        datasource = 'shellfish-list.json';
+        break;
+}
+
+fetch('resources/datasource/fish-list.json')
     .then(response => response.json())
     .then(data => {
+        
+        var defImg = ""
+
+        if (document.title == "Ratings") {
+            defImg = "resources/images/fishes/default.jpeg"
+        } else if (document.title == "Shellfishes") {
+            defImg = "resources/images/shellfish/default.jpeg"
+        }
 
         // Map JSON data to instances of FishEntry
-       const fishes = data.map(fishData => {
+        const fishes = data.map(fishData => {
         const name = fishData.name ?? "Unknown Name";
         const rating = fishData.rating ?? 0;
-        const imgsrc = fishData.image ?? "resources/images/rankings/default.jpeg";
+        const imgsrc = fishData.image ?? defImg;
         const method = fishData.method ?? "";
         return new FishEntry(name, rating, imgsrc, method);
        })

@@ -2,7 +2,7 @@
     {
         "name": "Sea Bream",
         "rating": "94",
-        "image": "resources/images/rankings/sea-bream.jpeg",
+        "image": "resources/images/fishes/sea-bream.jpeg",
         "method": "self-fillet, pan fried"
     },
     {
@@ -13,7 +13,7 @@
     {
         "name": "European Sea Bass",
         "rating": "72",
-        "image": "resources/images/rankings/sea-bass.jpeg",
+        "image": "resources/images/fishes/sea-bass.jpeg",
         "method": "packaged-fillet, pan fried"
     },
     {
@@ -29,7 +29,7 @@
     {
         "name": "Rainbow Trout",
         "rating": "85",
-        "image": "resources/images/rankings/rainbow-trout.jpeg",
+        "image": "resources/images/fishes/rainbow-trout.jpeg",
         "method": "packaged-fillet, pan fried"
     },
     {
@@ -60,13 +60,13 @@
     {
         "name": "Salmon",
         "rating": "95",
-        "image": "resources/images/rankings/salmon.jpeg",
+        "image": "resources/images/fishes/salmon.jpeg",
         "method": "packaged-fillet, pan fried, pickled fish"
     },
     {
         "name": "Tilapia",
         "rating": "70",
-        "image": "resources/images/rankings/tilapia.jpeg",
+        "image": "resources/images/fishes/tilapia.jpeg",
         "method": "packed-fillet, pan fried, deep fried, steamed"
     },
     {
@@ -77,7 +77,7 @@
     {
         "name": "Yellow Croaker", 
         "rating": "13",
-        "image": "resources/images/rankings/yellow-croaker.jpg",
+        "image": "resources/images/fishes/yellow-croaker.jpg",
         "method": "self-fillet, pan fried, hot pot"
     }
 ]

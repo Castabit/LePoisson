@@ -10,21 +10,32 @@
         document.write(`<base href="${base}">`);
     </script>
     <link rel="stylesheet" href="resources/css/index.css">    
-    <title>About</title>
+    <title>Ratings</title>
 </head>
 <body>
     <section class="header-image">
-        <img style="width: 100%; height: 300px; object-fit: cover; object-position: 0% 65%;" src="resources/images/generic/fish-hanging.jpg"/> 
+        <img style="width: 100%; height: 300px; object-fit: cover; object-position: 0% 60%;" src="resources/images/generic/fish-decoration.jpg"/> 
     </section>
-    <div>
-        <h1>About</h1>
+    <section>
+        <h1>Fish Ratings</h1>
         <nav class="navbar">
             <ul class="nav-list" id="nav-list">
                 <!-- js/script.js generates navigation-list -->
             </ul>
         </nav>
-        <p>My own project website</p>
-    </div>
+    </section>
+    <section class="introduction">
+        <article >
+            <p>
+                This list only contains fishes which I've personally cooked.<br>
+                They are rated not only by how they taste, but also how easy they are to handle and prepare.
+            </p>
+        </article>
+    </section>
+    <section class="ratings-list" id="ratings-list">
+        <!-- js/FishEntry.js generates entires -->
+    </section>
     <script src="js/script.js"></script>
+    <script src="js/FishEntry.js"></script>
 </body>
 </html>
