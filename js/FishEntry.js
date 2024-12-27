@@ -13,7 +13,7 @@ class FishEntry {
 
     nameElement() {
         const li = document.createElement('li');
-        li.textContent = `Fish Name: ${this.name}`;
+        li.textContent = `Name: ${this.name}`;
         return li;
     }
 
