@@ -1,14 +1,9 @@
 [
     {
-        "name": "Sea Bream",
+        "name": "Black Sea Bream",
         "rating": "94",
-        "image": "resources/images/fishes/sea-bream.jpeg",
+        "image": "resources/images/fishes/black-sea-bream.jpg",
         "method": "self-fillet, pan fried"
-    },
-    {
-        "name": "Ocean Perch",
-        "rating": "22",
-        "method": "packaged-fillet (skin on), pan fried"
     },
     {
         "name": "European Sea Bass",
@@ -43,6 +38,12 @@
         "method": "packaged-fillet, pan fried"
     },
     {
+        "name": "Ocean Perch",
+        "rating": "22",
+        "image": "resources/images/fishes/ocean-perch.jpg",
+        "method": "packaged-fillet (skin on), pan fried"
+    },
+    {
         "name": "Icelandic Cod",
         "rating": "38",
         "method": "packaged-fillet, pan fried"
@@ -50,6 +51,7 @@
     {
         "name": "Pacific Rockfish",
         "rating": "91",
+        "image": "resources/images/fishes/pacific-rockfish.jpg",
         "method": "packaged-fillet, pan fried"
     },
     {
