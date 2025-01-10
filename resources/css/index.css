@@ -24,6 +24,7 @@ main {
 .navbar {
     background-color: teal;
     position: sticky;
+    top: 0px;
 }
 
 h1 {
@@ -42,9 +43,7 @@ h1 {
     width: auto;
     padding: 10px;
     margin: 4px;
-    background-color: teal;
     text-align: center;
-    border-radius: 4px;
     list-style-type: none;
 }
 
@@ -60,8 +59,9 @@ div.content-container {
 }
 
 aside {
-    background-color: red;
+    background-color: grey;
     width: 300px;
+    height: 800px;
 }
 
 section.ratings-list{
@@ -99,6 +99,11 @@ section.ratings-list{
 
 footer {
     height: 200px;
+    color: white;
     background-color: #2f2f2f;
     margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    padding-top: 20px;
 }

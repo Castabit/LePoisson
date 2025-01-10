@@ -13,31 +13,35 @@
 </head>
 <body>
     <div class="root">
-        <div class="header-container">
+        <div class="header-image">
             <img style="width: 100%; height: 300px; object-fit: cover; object-position: 0% 65%; vertical-align: top;" src="resources/images/generic/fish-decoration.jpg"/>
-            <h1>Ratings</h1>
-            <nav class="navbar" id="navbar">
-                <ul class="nav-list" id="nav-list">
-                    <!-- js/script.js generates navigation-list -->
-                </ul>
-            </nav>
         </div>
-        <main>
-            <section class="introduction">
-                <article >
-                    <p>
-                        This list only contains fishes which I've personally cooked.<br>
-                        They are rated not only by how they taste, but also how easy they are to handle and prepare.
-                    </p>
-                </article>
-            </section>
-            <section class="ratings-list" id="ratings-list">
-                <!-- js/FishEntry.js generates entires -->
-            </section>
-        </main>
+        <nav class="navbar" id="navbar">
+            <ul class="nav-list" id="nav-list">
+                <!-- js/script.js generates navigation-list -->
+            </ul>
+        </nav>
+        <h1>Ratings</h1>
+        <div class="content-container">
+            <!-- <aside>
+                <h2>Aside</h2>
+            </aside> -->
+            <main>
+                <section class="introduction">
+                    <article >
+                        <p>
+                            This list only contains fishes which I've personally cooked.<br>
+                            They are rated not only by how they taste, but also how easy they are to handle and prepare.
+                        </p>
+                    </article>
+                </section>
+                <section class="ratings-list" id="ratings-list">
+                    <!-- js/FishEntry.js generates entires -->
+                </section>
+            </main>
+        </div>
     </div>
     <footer>
-        
     </footer>
     <script src="js/script.js"></script>
     <script src="js/FishEntry.js"></script>
