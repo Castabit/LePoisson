@@ -13,27 +13,37 @@
     <title>Shellfishes</title>
 </head>
 <body>
-    <section class="header-image">
-        <img style="width: 100%; height: 300px; object-fit: cover; object-position: 0% 50%;" src="resources/images/generic/crab.jpg"/> 
-    </section>
-    <section>
-        <h1>Shell Fishes</h1>
-        <nav class="navbar" id="navbar">
-            <ul class="nav-list" id="nav-list">
-                <!-- js/script.js generates navigation-list -->
-            </ul>
-        </nav>
-    </section>
-    <section class="introduction">
-        <article >
-            <p>Shell fishes page
-            <br>I won't be cooking too many of these cause they're expensive
-            </p>
-        </article>
-    </section>
-    <section class="ratings-list" id="ratings-list">
-        <!-- populate with entires -->
-    </section>
+    <div class="root">
+        <div class="header-container">
+            <img style="width: 100%; height: 300px; object-fit: cover; object-position: 0% 50%;" src="resources/images/generic/crab.jpg"/>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list" id="nav-list">
+                    <!-- js/script.js generates navigation-list -->
+                </ul>
+            </nav>
+            <h1>Shellfishes</h1>
+        </div>
+        <div class="content-container">
+            <!-- <aside>
+                <h2>Aside</h2>
+            </aside> -->
+            <main>
+                <section class="introduction">
+                    <article >
+                        <p>Shell fishes page
+                        <br>I won't be cooking too many of these cause they're expensive
+                        </p>
+                    </article>
+                </section>
+                <section class="ratings-list" id="ratings-list">
+                    <!-- populate with entires -->
+                </section>
+            </main>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
     <script src="js/script.js"></script>
     <script src="js/FishEntry.js"></script>
 </body>

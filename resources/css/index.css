@@ -3,43 +3,43 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+html, body {
     margin: 0px;
+    height: 100%;
+    background-color:#e3ffff;
 }
 
-section {
-    margin-inline: 40px;
+div.root {
+    display:flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
-div {
-}
-
-section.header-image {
-    margin-inline: 0;
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .navbar {
-    color: teal;
+    background-color: teal;
     position: sticky;
-    top: 10px;
 }
 
 h1 {
-    margin: 40px 0px;
+    margin: 40px;
 }
 
 .nav-list {
     display: flex;
     flex-wrap: wrap;
-}
-
-.nav-list ul {
-    gap: 4px;
+    justify-content: space-evenly;
+    margin:0px;
 }
 
 .nav-list li {
     height: 38px;
-    width: 200px;
+    width: auto;
     padding: 10px;
     margin: 4px;
     background-color: teal;
@@ -48,22 +48,20 @@ h1 {
     list-style-type: none;
 }
 
-.nav-list li:hover {
-    background-color: darkslategray;
-}
-
 .nav-list li a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
-.nav-list li a:hover {
-    color:gold;
+div.content-container {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.introduction {
-    margin: 40px;
+aside {
+    background-color: red;
+    width: 300px;
 }
 
 section.ratings-list{
@@ -76,12 +74,13 @@ section.ratings-list{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     width: 100%
 }
 
 .fish-entry img {
-    width: 280px;
-    height: 180px;
+    width: 448px;
+    height: 288px;
     object-fit: cover;
     padding-right: 40px;
 }
@@ -90,12 +89,16 @@ section.ratings-list{
     flex-direction: column;
     vertical-align: top;
     width: 200px;
-    /* height: 180px; */
     padding: 0px;
     margin-bottom: 40px;
 }
 
 .fish-entry ul li {
     list-style-type: none;
-    /* width: 350px; */
+}
+
+footer {
+    height: 200px;
+    background-color: #2f2f2f;
+    margin-top: 100px;
 }
