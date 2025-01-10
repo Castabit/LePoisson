@@ -12,28 +12,33 @@
     <title>Ratings</title>
 </head>
 <body>
-    <section class="header-image">
-        <img style="width: 100%; height: 300px; object-fit: cover; object-position: 0% 60%;" src="resources/images/generic/fish-decoration.jpg"/> 
-    </section>
-    <section class="page-title">
-        <h1>Fish Ratings</h1>
-        <nav class="navbar">
-            <ul class="nav-list" id="nav-list">
-                <!-- js/script.js generates navigation-list -->
-            </ul>
-        </nav>
-    </section>
-    <section class="introduction">
-        <article >
-            <p>
-                This list only contains fishes which I've personally cooked.<br>
-                They are rated not only by how they taste, but also how easy they are to handle and prepare.
-            </p>
-        </article>
-    </section>
-    <section class="ratings-list" id="ratings-list">
-        <!-- js/FishEntry.js generates entires -->
-    </section>
+    <div class="root">
+        <div class="header-container">
+            <img style="width: 100%; height: 300px; object-fit: cover; object-position: 0% 65%;" src="resources/images/generic/fish-decoration.jpg"/>
+            <h1>Ratings</h1>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list" id="nav-list">
+                    <!-- js/script.js generates navigation-list -->
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <section class="introduction">
+                <article >
+                    <p>
+                        This list only contains fishes which I've personally cooked.<br>
+                        They are rated not only by how they taste, but also how easy they are to handle and prepare.
+                    </p>
+                </article>
+            </section>
+            <section class="ratings-list" id="ratings-list">
+                <!-- js/FishEntry.js generates entires -->
+            </section>
+        </main>
+    </div>
+    <footer>
+        
+    </footer>
     <script src="js/script.js"></script>
     <script src="js/FishEntry.js"></script>
 </body>
